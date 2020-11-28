@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PDF Page Size</string>
+    <string name="pdf_icon_description">PDF Icon</string>
+    <string name="ok">OK</string>
+    <string name="page_number">p%d</string>
+    <string name="page_size_value">%1$d × %2$d mm</string>
+    <string name="page_orientation">(%1$s)</string>
+    <string name="page_size_standard_and_orientation">(%1$s, %2$s)</string>
+</resources>
