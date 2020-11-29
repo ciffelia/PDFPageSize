@@ -15,7 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="p.1" />
+        tools:text="p10" />
 
     <androidx.constraintlayout.helper.widget.Flow
         android:id="@+id/pageSizeFlow"
