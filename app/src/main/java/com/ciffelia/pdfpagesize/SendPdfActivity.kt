@@ -35,7 +35,6 @@ class SendPdfActivity : AppCompatActivity(R.layout.activity_send_pdf) {
 
     private fun displayPdfMetadata() {
         recyclerView.apply {
-            setHasFixedSize(true)
             adapter = PageRecyclerViewAdapter(this@SendPdfActivity, viewModel.pdfFile.pages)
         }
     }
