@@ -39,13 +39,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-        tools:text="210 × 297 mm" />
+        tools:text="210 × 297 mm"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/pageSizeDescriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-        tools:text="(A4, portrait)" />
+        tools:text="(A4, portrait)"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
